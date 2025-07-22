@@ -19,6 +19,7 @@
 
     <main class="container">
         <section>
+            <h2>Formulário de cadastro</h2>
             <form class="row g-3">
                 <div class="col-md-6">
                     <label for="inputName" class="form-label">Nome:</label>
@@ -32,7 +33,7 @@
                     <label for="inputEmail" class="form-label">Email:</label>
                     <input type="email" class="form-control" id="inputEmail" placeholder="nome@exemplo.com">
                 </div>
-                
+
                 <div class="col-md-4">
                     <label for="inputCurso" class="form-label">Curso</label>
                     <select id="inputCurso" class="form-select">
@@ -68,6 +69,48 @@
                     <button type="submit" class="btn btn-primary">Cadastrar</button>
                 </div>
             </form>
+        </section>
+        <hr />
+        <section>
+            <h2>Alunos cadastrados</h2>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Telefone</th>
+                        <th scope="col">Curso</th>
+                        <th scope="col">Turno</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>@mdo</td>
+                        <td>8398111</td>
+                        <td>Java</td>
+                        <td>Manhã</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>John</td>
+                        <td>@mdo</td>
+                        <td>8398111</td>
+                        <td>Javascript</td>
+                        <td>Tarde</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>John</td>
+                        <td>@social</td>
+                        <td>0148109</td>
+                        <td>.NET</td>
+                        <td>Noite</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
     </main>
