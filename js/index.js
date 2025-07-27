@@ -42,10 +42,21 @@ function addNewRow(aluno) {
     var turnoNode = document.createTextNode(aluno.turno);
 
     newRow.insertCell().appendChild(idNode);
+    // Nome do aluno
     newRow.insertCell().appendChild(nomeNode);
-    newRow.insertCell().appendChild(emailNode);
+
+    // Email do aluno responsivo
+    var cell = newRow.insertCell(); 
+    cell.className="d-none d-md-table-cell";
+    cell.appendChild(emailNode);
+
+    // Telefone do aluno
     newRow.insertCell().appendChild(telefoneNode);
+
+    // Curso do aluno
     newRow.insertCell().appendChild(cursoNode);
+
+    // Turno do aluno
     newRow.insertCell().appendChild(turnoNode);
 
 }
