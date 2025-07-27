@@ -1,4 +1,4 @@
-# Cadastro-De-alunos
+# Cadastro de alunos
 
 ## Desafio de colocar uma tabela de cadastro de aluno do Bootcamp dev JR
 
@@ -14,4 +14,4 @@
 ![Imagem de como a tela deve ficar no celular](<docs/tela mobile.png>)
 
 
-## Acompanhe minha solução deste desafio [aqui]()
+## Acompanhe minha solução deste desafio [aqui](https://willian-uiu.github.io/Cadastro-De-alunos/)
