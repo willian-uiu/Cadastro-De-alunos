@@ -46,19 +46,27 @@ function addNewRow(aluno) {
     newRow.insertCell().appendChild(nomeNode);
 
     // Email do aluno responsivo
-    var cell = newRow.insertCell(); 
-    cell.className="d-none d-md-table-cell";
-    cell.appendChild(emailNode);
+    var cell1 = newRow.insertCell(); 
+    cell1.className="d-none d-md-table-cell";
+    cell1.appendChild(emailNode);
 
     // Telefone do aluno
-    newRow.insertCell().appendChild(telefoneNode);
+    var cell2 = newRow.insertCell();
+    cell2.className="d-none d-md-table-cell";
+    // newRow.insertCell().appendChild(telefoneNode);
+    cell2.appendChild(telefoneNode);
 
     // Curso do aluno
-    newRow.insertCell().appendChild(cursoNode);
+    var cell3 = newRow.insertCell();
+    cell3.className="d-none d-md-table-cell";
+    //newRow.insertCell().appendChild(cursoNode);
+    cell3.appendChild(cursoNode);
 
     // Turno do aluno
-    newRow.insertCell().appendChild(turnoNode);
-
+    var cell4 = newRow.insertCell();
+    cell4.className="d-none d-md-table-cell";    
+    //newRow.insertCell().appendChild(turnoNode);
+    cell4.appendChild(turnoNode);
 }
 
 
